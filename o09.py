@@ -1,0 +1,5 @@
+qtr = float(input())
+comi1 = int(input())
+comi2 = int(input())
+otp = (int(comi1 + comi2) * 5 / 1000)
+print(f"Sobraram {(qtr - otp) :.2f} quilos de ração no saco.")
